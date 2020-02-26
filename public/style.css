@@ -1,3 +1,11 @@
-* {
-  font-family: arial;
+#login,
+#main {
+  display: none;
+}
+[data-state] #loading {
+  display: none;
+}
+[data-state="login"] #login,
+[data-state="main"] #main {
+  display: block;
 }

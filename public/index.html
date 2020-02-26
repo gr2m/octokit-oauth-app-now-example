@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>@octokit/oauth-app example</title>
-
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GitHub OAuth Login Test</title>
     <link href="/style.css" rel="stylesheet" />
+    <script type="module" src="/script.js"></script>
   </head>
-
   <body>
-    <h1><code>@octokit/oauth-app</code> example</h1>
-
-    <p>
-      <a href="/api/github/oauth/login">Login with GitHub</a>
-    </p>
-
-    <p>
-      Learn more about
-      <a href="https://github.com/octokit/oauth-app.js#readme"
-        ><code>@octokit/oauth-app</code></a
-      >.
-    </p>
-
-    <script src="/script.js"></script>
+    <div id="loading">
+      Loading ...
+    </div>
+    <div id="login">
+      <a href="/api/github/oauth/login">
+        Login with GitHub
+      </a>
+    </div>
+    <div id="main">
+      <h1>Hello there!</h1>
+      <p>
+        <button onclick="sayMyName()">Say my name!</button>
+      </p>
+      <p>
+        <button onclick="logout({ invalidateToken: true })">Logout</button>
+      </p>
+    </div>
   </body>
 </html>

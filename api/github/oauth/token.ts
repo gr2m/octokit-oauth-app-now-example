@@ -49,7 +49,11 @@ export default async (req: NowRequest, res: NowResponse) => {
       token
     });
 
-    res.status(200);
+    if (!result) {
+      res.status(204);
+      return res.end();
+    }
+
     return res.json(result);
   } catch (error) {
     if (error.status === 404) {
