@@ -12,6 +12,6 @@
   "license": "MIT",
   "dependencies": {
     "@now/node": "^1.4.1",
-    "@octokit/oauth-app": "^1.0.0"
+    "@octokit/oauth-app": "^1.0.1"
   }
 }
