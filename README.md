@@ -11,7 +11,7 @@ Learn more about [`@octokit/oauth-app`](https://github.com/octokit/oauth-app.js#
 Create two OAuth GitHub Apps, one for production and one for local development:
 https://github.com/settings/applications/new
 
-The one for production needs to set `Authorization callback URL` to your apps URL: `https://<your app name>.now.sh/api/github/oauth/login`. Then one for local development needs to set it to `http://localhost:3000/api/github/oauth/callback`
+The one for production needs to set `Authorization callback URL` to your apps URL: `https://<your app name>.now.sh`. Then one for local development needs to set it to `http://localhost:3000`
 
 Set the `octokit-oauth-app-client-id` and `octokit-oauth-app-client-secret` secrets using the `now` CLI
 
