@@ -1,0 +1,6 @@
+{
+  "env": {
+    "CLIENT_ID": "@octokit-oauth-app-client-id",
+    "CLIENT_SECRET": "@octokit-oauth-app-client-secret"
+  }
+}

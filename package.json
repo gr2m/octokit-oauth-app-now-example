@@ -1,0 +1,17 @@
+{
+  "name": "octokit-oauth-app-now-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example OAuth client server for @octokit/oauth-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gregor Martynus (https://twitter.com/gr2m)",
+  "license": "MIT",
+  "dependencies": {
+    "@now/node": "^1.4.1",
+    "@octokit/oauth-app": "^1.0.0"
+  }
+}
