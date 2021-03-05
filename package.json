@@ -13,5 +13,6 @@
   "dependencies": {
     "@now/node": "^1.4.1",
     "@octokit/oauth-app": "^1.0.1"
-  }
+  },
+  "repository": "github:gr2m/octokit-oauth-app-now-example"
 }
